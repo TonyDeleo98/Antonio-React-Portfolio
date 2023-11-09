@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     siteTitle: ``,
     siteTitleAlt: `My Portfolio`,
     siteHeadline: ``,
-    siteUrl: `http://localhost:8000/`,
+    siteUrl: ``,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
