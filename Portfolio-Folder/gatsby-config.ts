@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     siteTitle: ``,
     siteTitleAlt: `My Portfolio`,
     siteHeadline: ``,
-    siteUrl: ``,
+    siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
@@ -29,6 +29,19 @@ const config: GatsbyConfig = {
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
         background_color: `#141821`,
+        display: `standalone`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       },
     },
     // You can remove this plugin if you don't need it
