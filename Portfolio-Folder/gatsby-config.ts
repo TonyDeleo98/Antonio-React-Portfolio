@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     siteTitle: ``,
     siteTitleAlt: `My Portfolio`,
     siteHeadline: ``,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `http://localhost:8000/`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
